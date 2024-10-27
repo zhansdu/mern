@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for my pet project",
+  "main": "app/index.js",
+  "author": "Zhan",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app/index.ts",
+    "lint": "eslint 'app/**/*.ts'"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.1",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  }
+}
